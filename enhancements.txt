@@ -1,0 +1,2 @@
+1. I added a "You may also like" section underneath the profileInfo section
+2. 

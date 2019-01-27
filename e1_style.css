@@ -95,9 +95,18 @@ a {
 	width: 300px;
 	min-height: 300px;
 	float: left;
-
 }
 
+#youMayAlsoLike {
+	background-color: white;
+	padding: 10px;
+	margin-top: 20px;
+	margin-left: 50px;
+	width: 300px;
+	min-height: 300px;
+	float: left;
+	clear: left;
+}
 
 /*** Timeline styles below ***/
 
@@ -114,6 +123,7 @@ a {
 
 .timelineHeader {
 	border-bottom: 1px solid grey;
+	
 }
 
 .timelineHeader ul {
