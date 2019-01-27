@@ -8,18 +8,18 @@
  </head>
 
  <body>
- 	
+
  	<!-- The header -->
  	<div id="header">
- 		<!-- Twitter logo goes in here -->
- 		
+		<!-- Twitter logo goes in here -->
+		<img class="birdLogo" src="bird.png">
  	</div>
 
 	<!-- The big banner image -->
  	<div id="banner"> <!-- Just holds the banner image, don't need to style this div. -->
 
  		<!-- Banner image goes in here -->
- 		
+		<img class="bannerPic" src="uoft_banner.jpeg">
 
  	</div>
 
@@ -29,8 +29,9 @@
  			<li>Tweets<br><span class="profileStatsNumber">478</span></li>
 
  			<!-- Add the rest of the stats below -->
-
-
+			<li>Followers<br><span class="profileStatsNumber">23K</span></li>
+			<li>Following<br><span class="profileStatsNumber">12</span></li>
+			<li>Likes<br><span class="profileStatsNumber">10.3K</span></li>
  		</ul>
  	</div>
 
@@ -60,8 +61,19 @@
  			You should have two divs inside this div: one that is a container for the tweet icon,
  			and one that has the content of the tweet.
  			Remember to look in the starter CSS for appropriate class names that 
- 			match these descriptions. -->
+			match these descriptions. -->
+			<div class="tweetIconContainer">
+				<img class="tweetIcon" src="uoft.jpg">
+			</div>
 
+			<div class="tweetContent">
+				
+				<!-- profile it came from -->
+				<strong>University of Toronto <span class="grey">@UofT</span></strong>
+				
+				<!-- content of the tweet-->
+				<p>Another great day at UofT! <span class="hashtag">#UofT</span> <span class="hashtag">#GreatDay</span></p>
+			</div>
 
  		</div>
 
@@ -70,15 +82,47 @@
  			<!-- Reuse all of the tweet classes from the one above, 
  			and just change the content of the tweet. -->
 
-
+			
+			 <div class="tweetIconContainer">
+					<img class="tweetIcon" src="uoft.jpg">
+				</div>
+	
+				<div class="tweetContent">
+					
+					<!-- profile it came from -->
+					<strong>University of Toronto <span class="grey">@UofT</span></strong>
+					
+					<!-- content of the tweet-->
+					<p>Check out some books at <span class="hashtag">#robarts</span></p>
+					<img class="tweetContentPicture" src="robarts.jpg">
+				</div>
  		</div>
 
 		<!-- Add your own tweet below -->
+		<div class='tweet'>
+				<!-- Reuse all of the tweet classes from the one above, 
+				and just change the content of the tweet. -->
+   
+			   
+				<div class="tweetIconContainer">
+					   <img class="tweetIcon" src="uoft.jpg">
+				   </div>
+	   
+				   <div class="tweetContent">
+					   
+					   <!-- profile it came from -->
+					   <strong>University of Toronto <span class="grey">@UofT</span></strong>
+					   
+					   <!-- content of the tweet-->
+					   <p>A UofT student who started a Machine Learning blog. click on the image below to read more. <span class="hashtag">#ML</span></p>
 
+					   <a href="https://chenyuzhang.com/blog/"><img class="charlieProfilePicture" src="Charlie Chenyu Zhang.jpg"></a>>
+						   
+				   </div>
+			</div>
+	 </div>
 
-
-
-
- 	</div>
+	 <!-- profile icture -->
+	 <img src="uoft.jpg" id="bigProfilePicCircle">
  </body>
 </html>
