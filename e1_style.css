@@ -154,6 +154,10 @@ a {
 
 }
 
+.youMayAlsoLikeProfiles {
+	background-color: white;
+}
+
 /* For the div that holds the tweet icon */
 .tweetIconContainer {
 
@@ -161,6 +165,14 @@ a {
 	width: 80px;
 	height: auto;
 
+}
+
+/* For the div that holds the tweet icon */
+.youMayLikePostIconContainer {
+
+	/* Add properties below */
+	width: 30px;
+	height: auto;
 }
 
 .tweetIcon {
@@ -175,14 +187,32 @@ a {
 
 }
 
+.youMayLikePostTweetIcon {
+
+	/* Add properties below */
+	margin-left: 6px;
+	margin-right: 10px;
+	margin-top: -2px;
+	width: 50px;
+	border-radius: 50%;
+	float: left;
+
+}
+
 .tweetContent {
 	margin: 0px;
 
 	/* Add properties below */
 	margin-left: 80px;
 	margin-top: 10px;
-	
-	
+}
+
+.youMayLikePostContent {
+	margin: 0px;
+
+	/* Add properties below */
+	margin-left: 75px;
+	margin-top: 20px;
 }
 
 /* For pictures inside tweets (like the Robarts pic) */
