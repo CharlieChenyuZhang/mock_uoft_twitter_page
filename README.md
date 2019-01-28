@@ -1,2 +1,2 @@
-# mock_uoft_twitter_page
+# mock uoft twitter page
 A simple HTML and CSS site to mock UofT's twitter page
